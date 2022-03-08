@@ -1,0 +1,13 @@
+---
+apiVersion: source.toolkit.fluxcd.io/v1beta1
+kind: GitRepository
+metadata:
+  name: instavote-deploy
+  namespace: instavote
+spec:
+  interval: 1m0s
+  ref:
+    branch: main
+  secretRef:
+    name: github-instavote
+  url: https://github.com/xvag/instavote-deploy.git
