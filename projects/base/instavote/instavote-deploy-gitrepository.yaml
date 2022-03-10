@@ -5,9 +5,11 @@ metadata:
   name: instavote-deploy
   namespace: instavote
 spec:
+  gitImplementation: go-git
   interval: 1m0s
   ref:
     branch: main
   secretRef:
     name: github-instavote
+  timeout: 1m0s
   url: https://github.com/xvag/instavote-deploy.git
