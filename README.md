@@ -1,4 +1,4 @@
-# FLux Fleet (flux-fleet) Repo 
+# Flux Fleet (flux-fleet) Repo 
 
 This repository contains code to setup Flux Deployment to various kubernetes clusters in the organisation. 
 
